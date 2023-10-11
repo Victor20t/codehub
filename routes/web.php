@@ -57,3 +57,6 @@ Route::get('/cordenador', function () {
     return view('cordenador/dashboard_cordenador');
 });
 
+Route::get('/cordenador/add_evento', function () {
+    return view('cordenador/adicionar_evento_cordenador');
+});
