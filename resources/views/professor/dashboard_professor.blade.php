@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cod&Hub - Tela inicial - Coordenador</title>
+    <title>Cod&Hub - Tela inicial - Professor</title>
     <!-- Link para o arquivo CSS de estilo específico para o cadastro -->
     <link rel="stylesheet" href="/css/dashboard.css">
     <!-- Link para a fonte 'Noto Sans' do Google Fonts -->
@@ -18,7 +18,7 @@
             <ul class="menu">
                 <div class="contato">
                     <img src="" alt="">
-                    <li><a href="#">Contato</a></li>
+                    <li><a href="#">Usuário</a></li>
                 </div>
             </ul>
         </div>
@@ -34,7 +34,7 @@
                 <br>
                 <div>
                     <br>
-                    <h3>Add horário</h3>
+                    <h3>Horário</h3>
                 </div>
             </button>
             <button type="submit">
@@ -45,7 +45,7 @@
                 <br>
                 <div>
                     <br>
-                    <h3>Add Boletim</h3>
+                    <h3>Add boletim</h3>
                 </div>
             </button>
             <button type="submit">
@@ -57,23 +57,27 @@
                 <br>
                 <div>
                     <br>
-                    <h3>Analisar Turma</h3>
+                    <h3>Analisar turma</h3>
                 </div>
             </button>
             <button type="submit">
-                <svg xmlns="http://www.w3.org/2000/svg" width="78" height="79" viewBox="0 0 78 79" fill="none">
-                    <path d="M59.265 33.6341V59.5784C59.265 67.8367 52.65 74.5 44.53 74.5H18.735C10.615 74.5 4 67.8012 4 59.5784V33.6341C4 25.3759 10.615 18.7126 18.735 18.7126H44.53C52.65 18.7126 59.265 25.4114 59.265 33.6341Z" stroke="#E4E4E4" stroke-width="7.09018" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M16.25 10.7025V4.5" stroke="#E4E4E4" stroke-width="7.09018" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M30.25 10.7025V4.5" stroke="#E4E4E4" stroke-width="7.09018" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M44.25 10.7025V4.5" stroke="#E4E4E4" stroke-width="7.09018" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M73.9999 43.1683C73.9999 51.3911 67.3849 58.0898 59.2649 58.0898V28.2466C67.3849 28.2466 73.9999 34.91 73.9999 43.1683Z" stroke="#E4E4E4" stroke-width="7.09018" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M4 39.0569H58.285" stroke="#E4E4E4" stroke-width="7.09018" stroke-linecap="round" stroke-linejoin="round"/>
+                <svg xmlns="http://www.w3.org/2000/svg" width="69" height="76" viewBox="0 0 69 76" fill="none">
+                    <path d="M20.5 3V13.5" stroke="#E4E4E4" stroke-width="6" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M48.5 3V13.5" stroke="#E4E4E4" stroke-width="6" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M4.75 27.8152H64.25" stroke="#E4E4E4" stroke-width="6" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M66 25.7502V55.5003C66 66.0003 60.75 73.0003 48.5 73.0003H20.5C8.25 73.0003 3 66.0003 3 55.5003V25.7502C3 15.2502 8.25 8.25024 20.5 8.25024H48.5C60.75 8.25024 66 15.2502 66 25.7502Z" stroke="#E4E4E4" stroke-width="6" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M47.4315 43.9497H47.463" stroke="#E4E4E4" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M47.4315 54.45H47.463" stroke="#E4E4E4" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M34.4842 43.9497H34.5157" stroke="#E4E4E4" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M34.4842 54.45H34.5157" stroke="#E4E4E4" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M21.5301 43.9497H21.5615" stroke="#E4E4E4" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M21.5301 54.45H21.5615" stroke="#E4E4E4" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
                 <br>
                 <br>
                 <div>
                     <br>
-                    <h3>Add Refeições</h3>
+                    <h3>Realizar Chamada</h3>
                 </div>
             </button>
             <button type="submit">
@@ -87,7 +91,7 @@
                 <br>
                 <div>
                     <br>
-                    <h3>Add Eventos</h3>
+                    <h3>Eventos</h3>
                 </div>
             </button>
             <button type="submit">

@@ -22,18 +22,38 @@ Route::get('/cadastro', function () {
 });
 
 Route::get('/aluno', function () {
-    return view('dashboard_aluno');
+    return view('/aluno/dashboard_aluno');
 });
 
 Route::get('/aluno/boletim', function () {
-    return view('boletim_aluno');
+    return view('/aluno/boletim_aluno');
+});
+
+Route::get('/aluno/horario', function () {
+    return view('/aluno/horario_aluno');
+});
+
+Route::get('/aluno/cardapio', function () {
+    return view('/aluno/cardapio_aluno');
+});
+
+Route::get('/aluno/evento', function () {
+    return view('/aluno/evento_aluno');
+});
+
+Route::get('/aluno/blocodenotas', function () {
+    return view('/aluno/blocodenotas_aluno');
+});
+
+Route::get('/aluno/usuario', function () {
+    return view('/aluno/usuario_aluno');
 });
 
 Route::get('/professor', function () {
-    return view('dashboard_professor');
+    return view('/professor/dashboard_professor');
 });
 
 Route::get('/cordenador', function () {
-    return view('dashboard_cordenador');
+    return view('cordenador/dashboard_cordenador');
 });
 
