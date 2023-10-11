@@ -7,6 +7,7 @@
     <title>Cod&Hub - Cardápio</title>
     <!-- Link para o arquivo CSS de estilo específico para o cadastro -->
     <link rel="stylesheet" href="/css/aluno/cardapio_aluno.css">
+    <link rel="stylesheet" href="/css/navbar.css">
     <!-- Link para a fonte 'Noto Sans' do Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,7 +24,7 @@
                 <li><a href="/aluno">Home</a></li>
                 <li><a href="/aluno/boletim">Boletim</a></li>
                 <li><a href="/aluno/horario">Horário</a></li>
-                <li><a href="/aluno/cardapio">Cardápio</a></li>
+                <li class="colornav"><a href="/aluno/cardapio">Cardápio</a></li>
                 <li><a href="/aluno/evento">Eventos</a></li>
                 <li><a href="/aluno/blocodenotas">Bloco de Notas</a></li>
                 <div class="contato">

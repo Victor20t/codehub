@@ -7,6 +7,7 @@
     <title>Cod&Hub - Usuário</title>
     <!-- Link para o arquivo CSS de estilo específico para o cadastro -->
     <link rel="stylesheet" href="/css/aluno/usuario_aluno.css">
+    <link rel="stylesheet" href="/css/navbar.css">
     <!-- Link para a fonte 'Noto Sans' do Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,7 +29,7 @@
                 <li><a href="/aluno/blocodenotas">Bloco de Notas</a></li>
                 <div class="contato">
                     <img src="" alt="">
-                    <li><a href="/aluno/usuario">Usuário</a></li>
+                    <li class="colornav"><a href="/aluno/usuario">Usuário</a></li>
                 </div>
             </ul>
         </div>
