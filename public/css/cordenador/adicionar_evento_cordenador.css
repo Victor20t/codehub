@@ -1,0 +1,104 @@
+#container {
+    width: 1250px;
+    height: 623px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #D9D9D9;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-left: 205px; 
+    display: grid;
+}
+
+#esquerda{
+    display: grid;
+    margin-left: 100px;
+    padding-top: 65px;
+}
+
+#esquerda label{
+    width: 131px;
+    height: 43px;
+    flex-shrink: 0;
+    color: #101E3C;
+    font-family: Noto Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#esquerda input{
+    padding: 10px;
+    width: 320px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 3px solid #101E3C;
+    background: #D9D9D9;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+#esquerda textarea{
+    width: 326px;
+    height: 200px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 3px solid #101E3C;
+    background: #D9D9D9;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 10px;
+}
+
+#direita {
+    margin-left: 640px;
+    margin-top: -410px;
+}
+
+#direita div {
+    width: 484px;
+    height: 413px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 3px solid #101E3C;
+    background: #D9D9D9;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    padding: 140px;
+}
+
+#direita div input {
+    display: none;
+}
+
+#direita div label {
+    color: #101E3C;
+    text-align: center;
+    font-family: Noto Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+}
+
+#direita button {
+    width: 180px;
+    height: 50px;
+    flex-shrink: 0;
+    border: 3px solid #101E3C;
+    background: #D9D9D9;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 350px;
+}
+
+#direita button h3 {
+    color: #101E3C;
+    text-align: center;
+    font-family: Noto Sans;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: normal;
+}
