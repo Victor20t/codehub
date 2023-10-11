@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cod&Hub - Cardápio</title>
     <!-- Link para o arquivo CSS de estilo específico para o cadastro -->
-    <link rel="stylesheet" href="/css/aluno/cardapio_aluno.css">
+    <link rel="stylesheet" href="/css/aluno/tabela_aluno.css">
     <link rel="stylesheet" href="/css/navbar.css">
     <!-- Link para a fonte 'Noto Sans' do Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -37,6 +37,71 @@
 
     <div class="title">
         <h1>Cardápio</h1>
+        <span>Dia: 01/01/2024</span>
+    </div>
+
+    <div class="container">
+        <div class="grid-container">
+            <div class="grid-item item1">Horário</div>
+            <div class="grid-item celula-blue amarelo">Segunda</div>
+            <div class="grid-item celula-blue amarelo">Terça</div>
+            <div class="grid-item celula-blue amarelo">Quarta</div>
+            <div class="grid-item celula-blue amarelo">Quinta</div>
+            <div class="grid-item celula-blue amarelo">Sexta</div>
+            <div class="grid-item celula-blue amarelo">9:10</div>
+            <div class="grid-item">Comida</div>
+            <div class="grid-item">Comida</div>
+            <div class="grid-item">Comida</div>
+            <div class="grid-item">Comida</div>
+            <div class="grid-item">Comida</div>
+            <div class="grid-item celula-blue amarelo ">12:00</div>
+            <div class="grid-item">Comida</div>
+            <div class="grid-item">Comida</div>
+            <div class="grid-item">Comida</div>
+            <div class="grid-item">Comida</div>
+            <div class="grid-item">Comida</div>
+            <div class="grid-item celula-blue amarelo">15:00</div>
+            <div class="grid-item">Comida</div>
+            <div class="grid-item">Comida</div>
+            <div class="grid-item">Comida</div>
+            <div class="grid-item">Comida</div>
+            <div class="grid-item">Comida</div>
+        </div>
+    </div>
+    
+
+    <div class="title">
+        <h1>Ordem do almoço</h1>
+        <span>Mês: Janeiro</span>
+    </div>
+
+    <div class="container">
+        <div class="grid-container">
+            <div class="grid-item item1">Horário</div>
+            <div class="grid-item celula-blue amarelo">Segunda</div>
+            <div class="grid-item celula-blue amarelo">Terça</div>
+            <div class="grid-item celula-blue amarelo">Quarta</div>
+            <div class="grid-item celula-blue amarelo">Quinta</div>
+            <div class="grid-item celula-blue amarelo">Sexta</div>
+            <div class="grid-item celula-blue amarelo">1º</div>
+            <div class="grid-item">Primeiro</div>
+            <div class="grid-item">Segundo</div>
+            <div class="grid-item">Segundo</div>
+            <div class="grid-item">Terceiro</div>
+            <div class="grid-item">Primeiro</div>
+            <div class="grid-item celula-blue amarelo ">2º</div>
+            <div class="grid-item">Terceiro</div>
+            <div class="grid-item">Terceiro</div>
+            <div class="grid-item">Primeiro</div>
+            <div class="grid-item">Segundo</div>
+            <div class="grid-item">Segundo</div>
+            <div class="grid-item celula-blue amarelo">3º</div>
+            <div class="grid-item">Segundo</div>
+            <div class="grid-item">Primeiro</div>
+            <div class="grid-item">Terceiro</div>
+            <div class="grid-item">Primeiro</div>
+            <div class="grid-item">Terceiro</div>
+        </div>
     </div>
 
 </body>

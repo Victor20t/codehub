@@ -42,9 +42,9 @@
     <div class="container">
         <hr>
         <ul>
-            <li><a href="">3º ANO - TDS3IN-B - ESCOLA TECNICA ESTADUAL MINISTRO FERNANDO LYRA</a></li>
-            <li><a href="">2º ANO - TDS2IN-B - ESCOLA TECNICA ESTADUAL MINISTRO FERNANDO LYRA</a></li>
-            <li><a href="">1º ANO - TDS1IN-B - ESCOLA TECNICA ESTADUAL MINISTRO FERNANDO LYRA</a></li>
+            <li><a href="/aluno/boletim_2">3º ANO - TDS3IN-B - ESCOLA TECNICA ESTADUAL MINISTRO FERNANDO LYRA</a></li>
+            <li><a href="/aluno/boletim_2">2º ANO - TDS2IN-B - ESCOLA TECNICA ESTADUAL MINISTRO FERNANDO LYRA</a></li>
+            <li><a href="/aluno/boletim_2">1º ANO - TDS1IN-B - ESCOLA TECNICA ESTADUAL MINISTRO FERNANDO LYRA</a></li>
             <li>SERIE / NOME DA ESCOLA</li>
         </ul>
     </div>

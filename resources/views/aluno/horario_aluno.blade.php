@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cod&Hub - Horario</title>
     <!-- Link para o arquivo CSS de estilo específico para o cadastro -->
-    <link rel="stylesheet" href="/css/aluno/horario_aluno.css">
+    <link rel="stylesheet" href="/css/aluno/tabela_aluno.css">
     <link rel="stylesheet" href="/css/navbar.css">
     <!-- Link para a fonte 'Noto Sans' do Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">

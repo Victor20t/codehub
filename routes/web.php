@@ -29,6 +29,10 @@ Route::get('/aluno/boletim', function () {
     return view('/aluno/boletim_aluno');
 });
 
+Route::get('/aluno/boletim_2', function () {
+    return view('/aluno/boletim_2_aluno');
+});
+
 Route::get('/aluno/horario', function () {
     return view('/aluno/horario_aluno');
 });

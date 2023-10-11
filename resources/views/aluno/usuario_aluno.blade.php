@@ -29,7 +29,7 @@
                 <li><a href="/aluno/blocodenotas">Bloco de Notas</a></li>
                 <div class="contato">
                     <img src="" alt="">
-                    <li class="colornav"><a href="/aluno/usuario">Usuário</a></li>
+                    <li><a href="/aluno/usuario">Usuário</a></li>
                 </div>
             </ul>
         </div>
