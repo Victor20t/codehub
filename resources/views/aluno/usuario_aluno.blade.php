@@ -22,7 +22,7 @@
             </div>
             <ul class="menu">
                 <li><a href="/aluno">Home</a></li>
-                <li><a href="/aluno/boletim">Boletim</a></li>
+                <li><a href="/aluno/selecionar_turma">Boletim</a></li>
                 <li><a href="/aluno/horario">Horário</a></li>
                 <li><a href="/aluno/cardapio">Cardápio</a></li>
                 <li><a href="/aluno/evento">Eventos</a></li>

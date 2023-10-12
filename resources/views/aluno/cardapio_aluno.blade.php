@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cod&Hub - Cardápio</title>
     <!-- Link para o arquivo CSS de estilo específico para o cadastro -->
-    <link rel="stylesheet" href="/css/aluno/tabela_aluno.css">
+    <link rel="stylesheet" href="/css/tabela_horario_cardapio.css">
     <link rel="stylesheet" href="/css/navbar.css">
     <!-- Link para a fonte 'Noto Sans' do Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,7 +22,7 @@
             </div>
             <ul class="menu">
                 <li><a href="/aluno">Home</a></li>
-                <li><a href="/aluno/boletim">Boletim</a></li>
+                <li><a href="/aluno/selecionar_turma">Boletim</a></li>
                 <li><a href="/aluno/horario">Horário</a></li>
                 <li class="colornav"><a href="/aluno/cardapio">Cardápio</a></li>
                 <li><a href="/aluno/evento">Eventos</a></li>

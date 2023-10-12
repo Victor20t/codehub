@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cod&Hub - Eventos</title>
+    <title>Cod&Hub - Boletim</title>
     <!-- Link para o arquivo CSS de estilo específico para o cadastro -->
+    <link rel="stylesheet" href="/css/selecionar_turma.css">
     <link rel="stylesheet" href="/css/navbar.css">
-    <link rel="stylesheet" href="/css/eventos.css">
     <!-- Link para a fonte 'Noto Sans' do Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,10 +22,10 @@
             </div>
             <ul class="menu">
                 <li><a href="/aluno">Home</a></li>
-                <li><a href="/aluno/selecionar_turma">Boletim</a></li>
+                <li class="colornav"><a href="/aluno/selecionar_turma">Boletim</a></li>
                 <li><a href="/aluno/horario">Horário</a></li>
                 <li><a href="/aluno/cardapio">Cardápio</a></li>
-                <li class="colornav"><a href="/aluno/evento">Eventos</a></li>
+                <li><a href="/aluno/evento">Eventos</a></li>
                 <li><a href="/aluno/blocodenotas">Bloco de Notas</a></li>
                 <div class="contato">
                     <img src="" alt="">
@@ -36,26 +36,18 @@
     </nav>
 
     <div class="title">
-        <h1>Eventos</h1>
-        <span>Ano: 2024</span>
+        <h1>Boletim</h1>
     </div>
 
     <div class="container">
-        @php
-            $title = ['Ginastica', 'Interclasse', 'São João']
-        @endphp
-
-        @for ($i = 0; $i < 3; $i++ ) 
-        <div class="box">
-            <h1>{{ $title[$i] }}</h1>
-            
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
-
-            <img src="" alt="" width="300px" height="180">
-        </div>
-        @endfor
+        <hr>
+        <ul>
+            <li><a href="/aluno/boletim">3º ANO - TDS3IN-B - ESCOLA TECNICA ESTADUAL MINISTRO FERNANDO LYRA</a></li>
+            <li><a href="/aluno/boletim">2º ANO - TDS2IN-B - ESCOLA TECNICA ESTADUAL MINISTRO FERNANDO LYRA</a></li>
+            <li><a href="/aluno/boletim">1º ANO - TDS1IN-B - ESCOLA TECNICA ESTADUAL MINISTRO FERNANDO LYRA</a></li>
+            <li class="a_disable">SERIE / NOME DA ESCOLA</li>
+        </ul>
     </div>
-
 </body>
 
 </html>

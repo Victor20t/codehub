@@ -25,12 +25,12 @@ Route::get('/aluno', function () {
     return view('/aluno/dashboard_aluno');
 });
 
-Route::get('/aluno/boletim', function () {
-    return view('/aluno/boletim_aluno');
+Route::get('/aluno/selecionar_turma', function () {
+    return view('/aluno/selecionar_turma_aluno');
 });
 
-Route::get('/aluno/boletim_2', function () {
-    return view('/aluno/boletim_2_aluno');
+Route::get('/aluno/boletim', function () {
+    return view('/aluno/boletim_aluno');
 });
 
 Route::get('/aluno/horario', function () {
@@ -55,6 +55,38 @@ Route::get('/aluno/usuario', function () {
 
 Route::get('/professor', function () {
     return view('/professor/dashboard_professor');
+});
+
+Route::get('/professor/horario', function () {
+    return view('/professor/horario_professor');
+});
+
+Route::get('/professor/selecionar_turma_boletim', function () {
+    return view('/professor/boletim/selecionar_turma_add_nota_professor');
+});
+
+Route::get('/professor/add_boletim', function () {
+    return view('/professor/boletim/add_boletim_professor');
+});
+
+Route::get('/professor/analisar_turma', function () {
+    return view('/professor/analisar_turma_professor');
+});
+
+Route::get('/professor/selecionar_turma_chamada', function () {
+    return view('/professor/realizar_chamada/selecionar_turma_realizar_chamada_professor');
+});
+
+Route::get('/professor/realizar_chamada', function () {
+    return view('/professor/realizar_chamada/realizar_chamada_professor');
+});
+
+Route::get('/professor/eventos', function () {
+    return view('/professor/eventos_professor');
+});
+
+Route::get('/professor/usuario', function () {
+    return view('/professor/usuario_professor');
 });
 
 Route::get('/cordenador', function () {

@@ -21,15 +21,15 @@
                 <img src="/img/logo150.png" alt="">
             </div>
             <ul class="menu">
-                <li><a href="/aluno">Home</a></li>
-                <li><a href="/aluno/selecionar_turma">Boletim</a></li>
-                <li class="colornav"><a href="/aluno/horario">Horário</a></li>
-                <li><a href="/aluno/cardapio">Cardápio</a></li>
-                <li><a href="/aluno/evento">Eventos</a></li>
-                <li><a href="/aluno/blocodenotas">Bloco de Notas</a></li>
+                <li><a href="/professor">Home</a></li>
+                <li class="colornav"><a href="/professor/horario">Horário</a></li>
+                <li><a href="/professor/selecionar_turma_boletim">Add Boletim</a></li>
+                <li><a href="/professor/analisar_turma">Analisar Turma</a></li>
+                <li><a href="/professor/selecionar_turma_chamada">Realizar Chamada</a></li>
+                <li><a href="/professor/eventos">Eventos</a></li>
                 <div class="contato">
                     <img src="" alt="">
-                    <li><a href="/aluno/usuario">Usuário</a></li>
+                    <li><a href="/professor/usuario">Usuário</a></li>
                 </div>
             </ul>
         </div>
@@ -37,7 +37,7 @@
 
     <div class="title">
         <h1>Horário</h1>
-        <span>Turma: 3º TDS B</span>
+        <span>Professor: João Almeida da SIlva Carvalho</span>
     </div>
 
     <header>
