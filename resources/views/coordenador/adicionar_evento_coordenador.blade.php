@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cod&Hub - Cordenador - Adicionar Evento</title>
     <!-- Link para o arquivo CSS de estilo específico para o cadastro -->
-    <link rel="stylesheet" href="/css/cordenador/adicionar_evento_cordenador.css">
+    <link rel="stylesheet" href="/css/coordenador/adicionar_evento_coordenador.css">
     <link rel="stylesheet" href="/css/navbar.css">
     <!-- Link para a fonte 'Noto Sans' do Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,9 +21,9 @@
                 <img src="/img/logo150.png" alt="">
             </div>
             <ul class="menu">
-                <li><a href="/cordenador">Home</a></li>
+                <li><a href="/coordenador">Home</a></li>
                 <li><a href="/coordenador/add_horario">Add Horário</a></li>
-                <li class="colornav"><a href="/cordenador/add_evento">Add Eventos</a></li>
+                <li class="colornav"><a href="/coordenador/add_evento">Add Eventos</a></li>
                 <li><a href="/coordenador/analisar_turma">Analisar Turma</a></li>
                 <li><a href="/coordenador/add_refeicoes">Add Refeições</a></li>
                 <li><a href="/coordenador/add_boletim">Add Boletim</a></li>

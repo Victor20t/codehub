@@ -13,6 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+use App\Http\Controllers\EventsController;
+
 Route::get('/', function () {
     return view('login');
 });
@@ -41,9 +43,7 @@ Route::get('/aluno/cardapio', function () {
     return view('/aluno/cardapio_aluno');
 });
 
-Route::get('/aluno/evento', function () {
-    return view('/aluno/evento_aluno');
-});
+Route::get('/aluno/evento', [EventsController::class, 'index']);
 
 Route::get('/aluno/blocodenotas', function () {
     return view('/aluno/blocodenotas_aluno');
@@ -81,18 +81,14 @@ Route::get('/professor/realizar_chamada', function () {
     return view('/professor/realizar_chamada/realizar_chamada_professor');
 });
 
-Route::get('/professor/eventos', function () {
-    return view('/professor/eventos_professor');
-});
+Route::get('/professor/eventos', [EventsController::class, 'index']);
 
 Route::get('/professor/usuario', function () {
     return view('/professor/usuario_professor');
 });
 
-Route::get('/cordenador', function () {
-    return view('cordenador/dashboard_cordenador');
+Route::get('/coordenador', function () {
+    return view('coordenador/dashboard_coordenador');
 });
 
-Route::get('/cordenador/add_evento', function () {
-    return view('cordenador/adicionar_evento_cordenador');
-});
+Route::get('/coordenador/add_evento', [EventsController::class, 'create']);
