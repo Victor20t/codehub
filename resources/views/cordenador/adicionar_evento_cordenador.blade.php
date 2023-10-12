@@ -21,7 +21,7 @@
                 <img src="/img/logo150.png" alt="">
             </div>
             <ul class="menu">
-                <li><a href="/coordenador">Home</a></li>
+                <li><a href="/cordenador">Home</a></li>
                 <li><a href="/coordenador/add_horario">Add Horário</a></li>
                 <li class="colornav"><a href="/cordenador/add_evento">Add Eventos</a></li>
                 <li><a href="/coordenador/analisar_turma">Analisar Turma</a></li>
