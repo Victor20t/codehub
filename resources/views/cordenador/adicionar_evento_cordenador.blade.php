@@ -27,7 +27,6 @@
                 <li><a href="/coordenador/analisar_turma">Analisar Turma</a></li>
                 <li><a href="/coordenador/add_refeicoes">Add Refeições</a></li>
                 <li><a href="/coordenador/add_boletim">Add Boletim</a></li>
-                <li><a href="/coordenador/usuarios">Usuários</a></li>
                 <div class="contato">
                     <img src="" alt="">
                     <li><a href="/aluno/usuario">Usuário</a></li>

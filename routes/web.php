@@ -96,3 +96,19 @@ Route::get('/cordenador', function () {
 Route::get('/cordenador/add_evento', function () {
     return view('cordenador/adicionar_evento_cordenador');
 });
+
+Route::get('/cordenador/add_horario', function () {
+    return view('cordenador/adicionar_horario_cordenador');
+});
+
+Route::get('/cordenador/analisar_turma', function () {
+    return view('cordenador/analisar_turma_cordenador');
+});
+
+Route::get('/cordenador/add_refeicoes', function () {
+    return view('cordenador/adicionar_refeicoes_cordenador');
+});
+
+Route::get('/cordenador/usuario', function () {
+    return view('cordenador/usuario_cordenador');
+});
