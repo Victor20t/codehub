@@ -49,6 +49,6 @@
             <ul id="saved-notes" class="new-note-button">
             </ul>
         </div>
-    <script src="script.js"></script> <!-- Inclui o arquivo JavaScript externo -->
+    <script src="BlocoN.js"></script> <!-- Inclui o arquivo JavaScript externo -->
 </body>
 </html>
