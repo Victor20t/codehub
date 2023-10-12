@@ -29,7 +29,7 @@
                 <li><a href="/coordenador/add_boletim">Add Boletim</a></li>
                 <div class="contato">
                     <img src="" alt="">
-                    <li class="colornav"><a href="/aluno/usuario">Usuário</a></li>
+                    <li class="colornav"><a href="/cordenador/usuario">Usuário</a></li>
                 </div>
             </ul>
         </div>
