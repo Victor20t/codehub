@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cod&Hub - Horario</title>
     <!-- Link para o arquivo CSS de estilo específico para o cadastro -->
-    <link rel="stylesheet" href="blocodenotas_aluno.css">
+    <link rel="stylesheet" href="/css/aluno/blocodenotas_aluno.css">
+    <link rel="stylesheet" href="/css/navbar.css">
     <!-- Link para a fonte 'Noto Sans' do Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,7 +21,7 @@
             </div>
             <ul class="menu">
                 <li><a href="/aluno">Home</a></li>
-                <li><a href="/aluno/boletim">Boletim</a></li>
+                <li><a href="/aluno/selecionar_turma">Boletim</a></li>
                 <li ><a href="/aluno/horario">Horário</a></li>
                 <li><a href="/aluno/cardapio">Cardápio</a></li>
                 <li><a href="/aluno/evento">Eventos</a></li>
@@ -40,7 +41,9 @@
         </div>
     </div>
     
-        <h2 class="title">Bloco de Notas</h2>
+    <<div class="title">
+        <h1>Bloco de Notas</h1>
+    </div>
 
           <!-- Botão "Nova Nota" para iniciar uma nova nota -->
           <button id="save-button" class="buttom-new-list">Nova Nota</button>

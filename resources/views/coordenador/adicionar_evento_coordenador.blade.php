@@ -28,9 +28,17 @@
                 <li><a href="/coordenador/add_refeicoes">Add Refeições</a></li>
                 <li><a href="/coordenador/add_boletim">Add Boletim</a></li>
                 <li><a href="/coordenador/usuarios">Usuários</a></li>
+
+                <li><a href="/coordenador">Home</a></li>
+                <li><a href="/coordenador/add_horario">Add Horário</a></li>
+                <li class="colornav"><a href="/cordenador/add_evento">Add Eventos</a></li>
+                <li><a href="/coordenador/analisar_turma">Analisar Turma</a></li>
+                <li><a href="/coordenador/add_refeicoes">Add Refeições</a></li>
+                <li><a href="/coordenador/add_boletim">Add Boletim</a></li>
+
                 <div class="contato">
                     <img src="" alt="">
-                    <li><a href="/aluno/usuario">Usuário</a></li>
+                    <li><a href="/coordenador/usuario">Usuário</a></li>
                 </div>
             </ul>
         </div>

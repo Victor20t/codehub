@@ -8,6 +8,17 @@
   list-style-type: none;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #101E3C;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  height: 20%;
+  background-color: #FFA500;
+}
+
 body {
   background-color: #C6C6C6;
 }
