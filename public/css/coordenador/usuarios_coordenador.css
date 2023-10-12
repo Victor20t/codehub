@@ -1,0 +1,110 @@
+#aluno {
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 55px 55px;
+    flex-wrap: wrap;
+    margin-left: 135px;
+    margin-top: 80px;
+    padding-bottom: 50px;
+    height: 500px;
+}
+
+#yellow_card {
+    width: 450px;
+    height: 85.475px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #FFB511;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 15px;
+}
+
+#yellow_card h2 {
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: Noto Sans;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#filter {
+    margin-top: 15px;
+}
+
+#filter select {
+    border-radius: 5px;
+    height: 40px;
+    width: 210px;
+    text-align: center;
+    border: 3px solid #101E3C;
+    background: #D9D9D9;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-weight: bold;
+}
+
+#aplicarFiltro {
+    width: 140px;
+    height: 40px;
+    flex-shrink: 0;
+    border: none;
+    background: #101E3C;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    color: #FFB511;
+}
+
+.card {
+    width: 442px;
+    height: 141px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #101E3C;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.card button {
+    border: none;
+    background-color: #101E3C;
+    margin-bottom: 60px;
+    cursor: pointer;
+}
+
+.card div {
+    margin-right: 140px;
+    margin-left: 30px;
+}
+
+.card div h3 {
+    color: #FFF;
+    font-family: Noto Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.card div h4 {
+    color: #FFF;
+    font-family: Noto Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#professor {
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 55px 55px;
+    flex-wrap: wrap;
+    margin-left: 1000px;
+    padding-bottom: 50px;
+    margin-top: -500px;
+}
