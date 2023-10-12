@@ -47,8 +47,8 @@
                 <span>MATRICULA:</span>
                 <span>ETAPA DE ENSINO MÉDIO:</span>
             </div>
-            <hr>
             <div class="direita">
+            <hr>
                 <span>MODALIDADE:</span>
                 <span>CURSO:</span>
                 <span>TURMA:</span>
@@ -75,9 +75,10 @@
                         @endfor
                 </tr>
                 <tr>
-                    @for($th = 0; $th < 4; $th++) <th>FJ</th>
-                        <th>FNJ</th>
-                        @endfor
+                    @for($th = 0; $th < 4; $th++) 
+                        <th class="fj_fnj">FJ</th>
+                        <th class="fj_fnj">FNJ</th>
+                    @endfor
                 </tr>
             </thead>
             <tbody>
@@ -97,7 +98,7 @@
                 @endfor
 
                 <tr>
-                    @for($td = 0; $td < 4; $td++)
+                    @for($td = 0; $td < 1; $td++)
                         @if($td == 0)
                             @php
                                 $text = 'Percentual de Faltas';
@@ -107,10 +108,16 @@
                                 $text = '';
                             @endphp
                         @endif
-                        <td>{{ $text }}</td>
-                        <td>0%</td>
+                        <td class="titulo_table">{{ $text }}</td>
                     @endfor
-                    @for($td = 0; $td < 8; $td++)
+
+                    @for($td = 0; $td < 4; $td++)
+                    <td></td>
+                    <td></td>
+                    <td>0%</td>
+                    @endfor
+
+                    @for($td = 0; $td < 3; $td++)
                     <td></td>
                     @endfor
                 </tr>
