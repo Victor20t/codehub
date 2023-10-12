@@ -94,25 +94,25 @@ Route::get('/coordenador', function () {
 Route::get('/coordenador/add_evento', [EventsController::class, 'create']);
 
 Route::get('/coordenador/add_evento', function () {
-    return view('cordenador/adicionar_evento_cordenador');
+    return view('coordenador/adicionar_evento_cordenador');
 });
 
 Route::get('/coordenador/add_boletim', function () {
-    return view('cordenador/adicionar_boletim');
+    return view('coordenador/adicionar_boletim');
 });
 
 Route::get('/coordenador/add_horario', function () {
-    return view('cordenador/adicionar_horario_cordenador');
+    return view('coordenador/adicionar_horario_cordenador');
 });
 
 Route::get('/coordenador/analisar_turma', function () {
-    return view('cordenador/analisar_turma_cordenador');
+    return view('coordenador/analisar_turma_cordenador');
 });
 
 Route::get('/coordenador/add_refeicoes', function () {
-    return view('cordenador/adicionar_refeicoes_cordenador');
+    return view('coordenador/adicionar_refeicoes_cordenador');
 });
 
 Route::get('/coordenador/usuario', function () {
-    return view('cordenador/usuario_cordenador');
+    return view('coordenador/usuario_cordenador');
 });
