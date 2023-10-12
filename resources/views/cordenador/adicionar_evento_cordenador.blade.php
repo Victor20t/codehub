@@ -22,11 +22,11 @@
             </div>
             <ul class="menu">
                 <li><a href="/cordenador">Home</a></li>
-                <li><a href="/coordenador/add_horario">Add Horário</a></li>
+                <li><a href="/cordenador/add_horario">Add Horário</a></li>
                 <li class="colornav"><a href="/cordenador/add_evento">Add Eventos</a></li>
-                <li><a href="/coordenador/analisar_turma">Analisar Turma</a></li>
-                <li><a href="/coordenador/add_refeicoes">Add Refeições</a></li>
-                <li><a href="/coordenador/add_boletim">Add Boletim</a></li>
+                <li><a href="/cordenador/analisar_turma">Analisar Turma</a></li>
+                <li><a href="/cordenador/add_refeicoes">Add Refeições</a></li>
+                <li><a href="/cordenador/add_boletim">Add Boletim</a></li>
                 <div class="contato">
                     <img src="" alt="">
                     <li><a href="/cordenador/usuario">Usuário</a></li>

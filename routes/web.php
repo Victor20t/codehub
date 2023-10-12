@@ -97,6 +97,10 @@ Route::get('/cordenador/add_evento', function () {
     return view('cordenador/adicionar_evento_cordenador');
 });
 
+Route::get('/cordenador/add_boletim', function () {
+    return view('cordenador/adicionar_boletim');
+});
+
 Route::get('/cordenador/add_horario', function () {
     return view('cordenador/adicionar_horario_cordenador');
 });
