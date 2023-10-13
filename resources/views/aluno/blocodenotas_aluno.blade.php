@@ -3,10 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
     <title>Cod&Hub - Bloco de Notas</title>
     <!-- Ligando a folha de estilo CSS externa -->
     <link rel="stylesheet" href="style.css">
     <!-- Pré-conexão com o Google Fonts para carregar a fonte Noto Sans -->
+=======
+    <title>Cod&Hub - Horario</title>
+    <!-- Link para o arquivo CSS de estilo específico para o cadastro -->
+    <link rel="stylesheet" href="/css/aluno/blocodenotas_aluno.css">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <!-- Link para a fonte 'Noto Sans' do Google Fonts -->
+>>>>>>> 4d432c796e7247bf3062ca3a12128f93156c3efb
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- Importando a fonte Noto Sans do Google Fonts -->
@@ -25,8 +33,13 @@
             <ul class="menu">
                 <!-- Links para diferentes seções do site -->
                 <li><a href="/aluno">Home</a></li>
+<<<<<<< HEAD
                 <li><a href="/aluno/boletim">Boletim</a></li>
                 <li><a href="/aluno/horario">Horário</a></li>
+=======
+                <li><a href="/aluno/selecionar_turma">Boletim</a></li>
+                <li ><a href="/aluno/horario">Horário</a></li>
+>>>>>>> 4d432c796e7247bf3062ca3a12128f93156c3efb
                 <li><a href="/aluno/cardapio">Cardápio</a></li>
                 <li><a href="/aluno/evento">Eventos</a></li>
                 <!-- Destacando a seção atual (Bloco de Notas) -->
@@ -41,6 +54,7 @@
         </div>
     </nav>
     
+<<<<<<< HEAD
     <!-- Formulário para criação de notas -->
     <input type="text" id="tituloInput" placeholder="Digite um título">
     <textarea id="meuTextarea" class="textarea" rows="4" cols="50" placeholder="Digite o conteúdo do card"></textarea>
@@ -50,6 +64,11 @@
     <button onclick="criarCard()" class="new-nota">Criar Card</button>
     <!-- Contêiner para exibir as notas criadas -->
     <div id="cardsContainer" class="scrollable"></div>
+=======
+    <<div class="title">
+        <h1>Bloco de Notas</h1>
+    </div>
+>>>>>>> 4d432c796e7247bf3062ca3a12128f93156c3efb
 
     <script>
         // Função para criar uma nova nota

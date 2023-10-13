@@ -7,6 +7,14 @@
   text-decoration: none;
   list-style-type: none;
 }
+/* Estilos para a interface do bloco de notas */
+.notepad {
+    width: 200%;
+    position: absolute;
+    top: 200px;
+    left: 700px;
+    border-radius: 10px;
+}
 
 body {
   background-color: #C6C6C6;
