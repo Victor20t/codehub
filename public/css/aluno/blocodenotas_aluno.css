@@ -1,147 +1,203 @@
-/* Estilos para a interface do bloco de notas */
 /* Reset de estilos para todos os elementos */
 *, *:before, *:after {
-    font-family: 'Noto Sans', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style-type: none;
-  }
-  
-  body {
-    background-color: #C6C6C6;
-    position: relative;
-  }
-  
-  /* Estilos do navbar */
-  .navbar {
-    background-color: #101E3C; /* Cor de fundo do navbar */
-    color: #fff; /* Cor do texto no navbar */
-    font-size: 16px;
-  }
-  
-  .container-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 135px;
-  }
-  
-  .logo {
-    padding-top: 5px;
-  }
-  
-  .menu {
-    font-size: 16px;
-    font-weight: 500;
-  }
-  
-  .menu li, .contato {
-    display: inline-block;
-  }
-  
-  .menu img {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    transform: translate(0, 30%);
-    cursor: pointer;
-  }
-  
-  .menu li {
-    margin: 20px;
-  }
-  
-  .menu a {
-    color: #fff;
-    text-decoration: none;
-    transition: color 0.3s;
-  }
-  
-  .menu a:hover {
-    color: #FFA500; /* Cor do texto ao passar o mouse */
-  }
-  
-  .colornav a{
-    color: #FFA500;
-  }
-  
-  .title{ 
-    padding: 60px 135px 30px;
-    font-style: italic;
-    font-weight: 600;
-    color: #101E3C;
-    font-size: 48px;
-    line-height: normal;
-  }
-
-/* Estilos para a interface do bloco de notas */
-.notepad {
-    width: 200%;
-    position: absolute;
-    top: 200px;
-    left: 700px;
-    border-radius: 10px;
+  font-family: 'Noto Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
 }
 
-.notepad-text {
-    flex: 2;
+body {
+  background-color: #C6C6C6;
 }
 
-/* Aumente a altura e largura do textarea e bloqueie o redimensionamento */
-#note-content {
-    width: 769px; /* Defina a largura para 100% para ocupar toda a largura disponível */
-    height: 470px; /* Ajuste a altura conforme necessário */
-    resize: none; /* Bloqueie o redimensionamento */
-    position: relative;
-    right: 90px;
-    top: 20px;
-    border-radius: 10px;   
+/* Estilos do navbar */
+.navbar {
+  background-color: #101E3C;
+  color: #fff;
+  font-size: 16px;
 }
 
-.notes-list {
-    flex: 1;
-    border: 5px solid #6e3333;
-    padding: 5px;
-    max-width: 500px;
-    max-height: none; /* Adicione uma altura máxima para a lista de notas */
-    overflow-y: auto;
-    position: absolute;
-    top: 350px;
-    left: 100px; 
+.container-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 135px;
 }
 
-.delete-note {
-    cursor: pointer;
-    padding: 1px;
-    border: 1px solid #000;
+.logo {
+  padding-top: 5px;
 }
 
-.new-note-button {
-    margin-top: 10px;
+.menu {
+  font-size: 16px;
+  font-weight: 500;
 }
 
-.buttom-new-list{
-    width: 390px;
-    height: 78px;
-    flex-shrink: 5;
-    text-align: center;
-    font-size: 36px;
-    font-style: italic;
-    font-weight: 700;
-    line-height: normal;
-    border-radius: 20px;
-    background: #FFB511;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    left: 135px;
-    position: absolute
+.menu li, .contato {
+  display: inline-block;
 }
 
+.menu img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transform: translate(0, 30%);
+  cursor: pointer;
+}
 
-::placeholder{
-  text-align: center;
+.menu li {
+  margin: 20px;
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.menu a:hover {
+  color: #FFA500;
+}
+
+.colornav a {
+  color: #FFA500;
+}
+
+.title {
+  padding: 60px 135px 30px;
+  font-style: italic;
+  font-weight: 600;
+  color: #101E3C;
+  font-size: 48px;
+  line-height: normal;
   position: absolute;
-  top: 30px;
-  left: 10px;
+  top: 85px;
+  left: -15px;
+}
+
+.new-nota {
+  width: 390px;
+  height: 78px;
+  flex-shrink: 5;
+  text-align: center;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 20px;
+  background: #FFB511;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  top: 235px;
+  left: 135px;
+  position: absolute;
+}
+
+.textarea {
+  width: 769px;
+  height: 470px;
+  resize: none;
+  position: relative;
+  left: 605px;
+  right: 135px;
+  top: 175px;
+  border-radius: 10px;
+}
+
+#tituloInput {
+  border-width: 0;
+  width: 769px;
+  height: 45px;
+  border-radius: 7px;
+  position: absolute;
+  top: 200px;
+  left: 605px;
+  font-size: 20px;
+}
+
+.card {
+  border: none;
+  padding: 20px;
+  margin: 10px;
+  position: relative;
+  width: 360px;
+  height: 130px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  color: #f1f1f1;
+  background: #101E3C;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  direction: ltr;
+}
+
+.dropdown-content {
+  display: none;
+  right: 0;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content span {
+  padding: 7px 17px;
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.dropdown-content span:hover {
+  background-color: #C6C6C6;
+}
+
+.card:hover .dropdown-content {
+  display: block;
+  color: #101E3C;
+  position: absolute;
+}
+
+#cardsContainer {
+  position: absolute;
+  top: 333px;
+  left: 120px;
+  right: 970px;
+  direction: rtl;
+  overflow: auto;
+  width: 400px;
+  height: 600px;
+  border-radius: 10px;
+  background-color: #cccccc;
+}
+
+/* Mova o ícone de opções (três pontos) para a direita */
+.card h2 {
+  position: relative;
+}
+
+.card h2::after {
+  content: "⋮";
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+}
+
+.scrollable {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.scrollable::-webkit-scrollbar {
+  width: 12px;
+}
+
+.scrollable::-webkit-scrollbar-thumb {
+  background-color: rgba(245, 178, 53, 0.542);
+  border-radius: 10px;
+}
+
+.scrollable::-webkit-scrollbar-track {
+  background-color: #cccccc;
 }
